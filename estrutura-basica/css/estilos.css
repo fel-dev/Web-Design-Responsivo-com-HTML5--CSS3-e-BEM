@@ -1,0 +1,20 @@
+/* Path: estrutura-basica\css\estilos.css */
+h1, #titulo .missao{
+	font-family: Arial;
+}
+
+#titulo, .missao {
+	color: red;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(71, 0, 57);
+}
+
+.introducao, .missao {
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(71, 0, 57);
+}
+
+.missao {
+}
