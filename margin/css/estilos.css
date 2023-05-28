@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+	/* deixa tudo do mesmo tamanho melhor de trabalhar sem calculos mirabolantes */
+}
 body {
   font-size: 32px;
   margin: 0;
