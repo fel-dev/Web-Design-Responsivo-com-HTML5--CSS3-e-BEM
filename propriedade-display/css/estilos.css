@@ -35,8 +35,8 @@ body {
 
 .curso-html, .curso-css {
   display: inline;
-  height: 100px; /* não tem efeito */
-  width: 300px; /* não tem efeito */
+  height: 100px; /* não tem efeito no inline*/
+  width: 300px; /* não tem efeito no inline */
 }
 
 .curso-java, .curso-bootstrap {
