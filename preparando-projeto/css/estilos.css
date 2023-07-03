@@ -29,11 +29,18 @@ header img {
     padding: 80px 0;
 }
 
+#planos::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 article {
     padding: 10px;
     border: 1px solid #9aa;
     width: 370px;
-
+    float: left;
+    margin-right: 30px;
 }
 
 article > h2 {
