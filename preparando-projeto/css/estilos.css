@@ -82,7 +82,11 @@ article > footer {
     /*margin: 20px 0;*/
 }
 
+/* "::" pseudo-elemento e ":" pseudo-classe*/
+.botao:hover, .botao:focus {
+    background-color: #0e6400;
 
+}
 
 
 
