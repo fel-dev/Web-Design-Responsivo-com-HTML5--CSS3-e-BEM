@@ -47,7 +47,7 @@ article > h2 {
     background-color: #9aa;
     color: #f0f0f0;
     text-align: center;
-    line-height: 2.5; /*line-height: 2.5; means 2x e 5 a altura da fonte*/
+    line-height: 2.5;
     margin: -10px -10px 0 -10px;
     font-weight: normal;
     font-sizing: 28px;
@@ -56,7 +56,7 @@ article > h2 {
 article > div {
     text-align: center;
     font-size: 20px;
-    margin 20px 0; /* top/botton e L/R*/
+    margin 20px 0;
 }
 
 article > ul {
@@ -73,19 +73,16 @@ article > footer {
     text-align: center;
 }
 .botao {
-    display: inline-block; /*para que o botão fique na mesma linha*/
+    display: inline-block;
     background-color: #127d00;
     color: #f0f0f0;
     padding: 12px 16px;
     text-decoration: none;
     border-radius: 5px;
-    /*margin: 20px 0;*/
 }
 
-/* "::" pseudo-elemento e ":" pseudo-classe*/
 .botao:hover, .botao:focus {
     background-color: #0e6400;
-
 }
 
 
