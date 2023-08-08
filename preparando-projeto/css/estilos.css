@@ -19,7 +19,8 @@ header img {
 }
 
 .container {
-  width: 1200px;
+  /*width: 1200px;*/
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -38,9 +39,10 @@ header img {
 article {
     padding: 10px;
     border: 1px solid #9aa;
-    width: 370px;
+    width: 30%;
     float: left;
-    margin-right: 30px;
+    /*margin-right: 30px;*/
+    margin-right: 5%;
 }
 
 article > h2 {
@@ -72,6 +74,7 @@ article > ul > li {
 article > footer {
     text-align: center;
 }
+
 .botao {
     display: inline-block;
     background-color: #127d00;
@@ -84,6 +87,7 @@ article > footer {
 .botao:hover, .botao:focus {
     background-color: #0e6400;
 }
+
 
 
 
