@@ -42,16 +42,6 @@ article {
     border: 1px solid #9aa;
 
 }
-/*Código com medio queries para torna-lo responsivo*/
-/*Breaking point --- ponto de parada -- de 800 pixels*/
-@media (min-width: 800px) {
-/*"min-width" == "a partir de"*/
-    article {
-            width: 30%;
-            float: left;
-            margin-right: 5%;
-    }
-}
 
 article > h2 {
     background-color: #9aa;
