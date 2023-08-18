@@ -1,14 +1,17 @@
 /* todos os blocos / componentes relacionados á Layout*/
 
 .layout-cabecalho {
+    /* Exibição e Box Model */
     height: 60px;
     border-bottom: 1px solid #ccc;
 }
 
 .layout-cabecalho img {
+    /* Exibição e Box Model */
     margin-top: 12px;
 }
 
 .l-planos {
+    /* Exibição e Box Model */
     padding: 80px 0;
 }
