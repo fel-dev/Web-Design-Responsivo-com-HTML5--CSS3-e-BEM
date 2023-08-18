@@ -48,7 +48,7 @@
 
 .botao {
     display: inline-block;
-    background-color: #127d00;
+    background-color: #bbb;
     color: #f0f0f0;
     padding: 12px 16px;
     text-decoration: none;
@@ -56,5 +56,15 @@
 }
 
 .botao:hover, .botao:focus {
+    background-color: #aaa;
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao--assinar {
+    background-color: #127d00;
+}
+
+.botao--assinar:hover {
     background-color: #0e6400;
 }
