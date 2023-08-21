@@ -1,15 +1,20 @@
+html {
+  font-size: 62.5%;
+  /* ------------------------------ ------------------------------
+  - 100% do tamanho da fonte padrão do navegador
+  - o bootstrap-mini setou a fonte padrão para 10px 
+  - então aqui estou mudando para 10px, na font-size medium, não fixos.
+  ------------------------------ ------------------------------ 
+  NOTA: para os demais elementos/blocos não ficarem com números muito quebrados... 
+  existe uma conta:
+  10/16=0.625 
+  0.625x100=62.5
+  ------------------------------ ------------------------------ */  
+}
 
 body {
-  /* Posicionamento */
-  
-  /* Exibição e Box Model */
     margin: 0;
   
-  /* Cores */
-
-  /* Texto  */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-
-  /* Outros */
-  }
+    font-size: 1.4rem;
+}
