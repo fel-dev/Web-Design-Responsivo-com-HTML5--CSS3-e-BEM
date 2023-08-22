@@ -70,7 +70,7 @@
 .botao {
     display: inline-block;
     padding: 0.8571428571em 1.142857143em; /* 12 / 14 = 0,857142857 &&& 16/14 = 1,142857143 */
-    border-radius: 5px;
+    /* border-radius: 5px; */
 
     background-color: #bbb;
     color: #f0f0f0;
@@ -92,4 +92,53 @@
 
 .botao--assinar:hover {
     background-color: #0e6400;
+}
+
+.botao--principal {
+    background-color: #004b86;
+}
+
+.botao--principal:hover, .botao--principal:focus {
+    background-color: #003b6a;
+}
+
+/* ------------------- *\
+    CHAMADA do BEM
+\* ------------------- */
+.chamada {
+    font-size: 1.6rem; /*1.6*10 = 16px*/
+    text-align: center;
+}
+
+.chamada__titulo {
+    margin: 0;
+
+    color: #fff;
+
+    font-size: 3.37em; /*54px/16px = 3,375 */
+    line-height: 0.9;
+    text-shadow: 1px 1px #313131;
+}
+
+.chamada__subtitulo {
+    margin: 60px;
+
+    color: #fff;
+
+    font-size: 1em;
+
+}
+
+.chamada__acao {
+    font-size: 1em;
+}
+
+/* breakpoint >=992px */
+@media(min-width: 992px) {
+    .chamada {
+        padding-left: 10%;
+        padding-right: 10%;
+
+        font-size: 2.2rem;
+    }
 }

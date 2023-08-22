@@ -15,3 +15,9 @@
     /* Exibição e Box Model */
     padding: 80px 0;
 }
+
+.l-chamada {
+    padding: 80px 0;
+
+    background-color: #7ab55c;
+}
