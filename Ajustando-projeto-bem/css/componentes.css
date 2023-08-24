@@ -8,6 +8,7 @@
     /* Exibição e Box Model */
     padding: 10px;
     border: 1px solid #9aa;
+    position: relative; /*para o ::after do plano--mais-popular ficar por cima*/
 
     /* ----------------------------------- ------------------- *\
     O bloco que define o padrão da fonte usando "rem". 
@@ -15,7 +16,7 @@
     A conta para aqui ficar 14px dinâmico (usando root em "rem")
     deve ser: 14/16=0.875 
     -------------------------------------- ------------------- */
-    font-size: 1.4rem; /*14px*/
+    font-size: 1.4rem; /*10*14px=1.4rem*/
    
 }
 
@@ -25,6 +26,31 @@
     O bloco que define o padrão da fonte usando "rem". 
     Os Elementos são definidos em "em"
 -------------------------------------- ------------------- */
+    .plano--mais-popular::after {
+        position: absolute; /*para ficar por cima do plano -- procura o primeiro pai-setado com position relative*/
+
+        top: -10px;
+        left: -10px;
+        padding: 5px 10px;
+
+        background-color: #c20303;
+        color: #fff;
+
+        font-size: 0.714285714em; /* 10px / 14px = 0,714285714em */
+        height: 2.5;
+
+        content: "MAIS POPULAR";
+    }
+
+    @media (max-width: 768px) {
+        .plano--mais-popular::after {
+            padding: 0 10px;
+            top: 5px;
+            font-size: 1em;
+        }
+
+    }
+
     .plano__cabecalho {
         margin: -10px -10px 0 -10px;
 
