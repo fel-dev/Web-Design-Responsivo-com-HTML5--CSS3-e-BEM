@@ -177,11 +177,26 @@
     }
     
     .depoimento > blockquote {
+        position: relative;
+
         margin: 0;
         padding: 0 60px;
 
         text-align: center;
         font-size: 1em;
+    }
+
+    .depoimento > blockquote::before {
+        position: absolute;
+        left: -0.1em; /*Pega o tam do text-size próprio*/
+        top: -0.352272727em; /* 62/176=0,352272727*/
+
+        color: #bbb;
+
+        font-size: 8em; /* 8x22=176 mobile*/
+        font-family: 'Times New Roman', Times, serif;
+
+        content: '\201C';
     }
 
     .depoimento__autor {
