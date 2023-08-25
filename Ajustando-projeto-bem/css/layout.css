@@ -45,3 +45,10 @@
     color: #fff;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .l-planos .row > div:not(.ultima-coluna){
+        margin-bottom: 40px;
+    }
+
+}

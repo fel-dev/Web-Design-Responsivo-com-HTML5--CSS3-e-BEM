@@ -42,15 +42,6 @@
         content: "MAIS POPULAR";
     }
 
-    @media (max-width: 768px) {
-        .plano--mais-popular::after {
-            padding: 0 10px;
-            top: 5px;
-            font-size: 1em;
-        }
-
-    }
-
     .plano__cabecalho {
         margin: -10px -10px 0 -10px;
 
