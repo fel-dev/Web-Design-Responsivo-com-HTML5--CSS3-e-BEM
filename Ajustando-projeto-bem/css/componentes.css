@@ -244,9 +244,10 @@
         outline: none;        
     }
 
-    @media(min-width: 768px) {
+    /* Em telas grandes >=991px*/
+    @media(min-width: 991px) {
         .botao-chaveador {
-            display: none;
+            display: none; /*some com o botao */
         }
     }
 
@@ -256,22 +257,31 @@
     \* ------------------- */
 
     .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        
-        width: 200px;
         margin: 0;
-        padding: 20px;
-        border-right: 1px solid #eee ;
-
-        background-color: #fbfbfb;
+        
         font-size: 1.4rem;
 
         list-style: none;
     }
 
+    /* Media query para telas menores (até 991px) */
+    @media(max-width: 991px) {
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            
+            width: 200px;
+            padding: 20px;
+            border-right: 1px solid #eee ;
+    
+            background-color: #fbfbfb;
+        }
+        
+    }
+    
     .menu__item {
         display: block;
 
@@ -280,4 +290,18 @@
 
     .menu__item--botao {
         margin-top: 20px;
+    }
+
+    /* Quando largura mínima da tela for 992px (médias/maiores)*/
+    @media(min-width: 992px) {
+
+        .menu__item {
+            display: inline-block;
+            padding-right: 20px;
+        }
+
+        .menu__item:last-of-type {
+            padding-right: 0px;
+        }
+        
     }
