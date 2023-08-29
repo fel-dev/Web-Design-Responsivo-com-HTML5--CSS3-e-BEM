@@ -81,7 +81,7 @@
     }
 
 /* ------------------- *\
-    botão brabo do BEM
+    BOTÃO brabo do BEM
 \* ------------------- */
 
 .botao {
@@ -89,6 +89,7 @@
     padding: 0.8571428571em 1.142857143em; /* 12 / 14 = 0,857142857 &&& 16/14 = 1,142857143 */
     /* border-radius: 5px; */
 
+    line-height: normal;
     background-color: #bbb;
     color: #f0f0f0;
 
@@ -103,11 +104,12 @@
     text-decoration: none;
 }
 
-.botao--assinar {
+.botao--assinar, .botao--login {
     background-color: #127d00;
 }
 
-.botao--assinar:hover {
+.botao--assinar:hover, .botao--login:hover,
+.botao--assinar:focus, .botao--login:focus {
     background-color: #0e6400;
 }
 
@@ -246,4 +248,36 @@
         .botao-chaveador {
             display: none;
         }
+    }
+
+
+    /* ------------------- *\
+        MENU
+    \* ------------------- */
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        
+        width: 200px;
+        margin: 0;
+        padding: 20px;
+        border-right: 1px solid #eee ;
+
+        background-color: #fbfbfb;
+        font-size: 1.4rem;
+
+        list-style: none;
+    }
+
+    .menu__item {
+        display: block;
+
+        line-height: 3;
+    }
+
+    .menu__item--botao {
+        margin-top: 20px;
     }
