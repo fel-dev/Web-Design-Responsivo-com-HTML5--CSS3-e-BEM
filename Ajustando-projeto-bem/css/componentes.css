@@ -213,3 +213,37 @@
     .depoimento__autor > p {
         margin-top: 10px;
     }
+
+
+    /* ------------------- *\
+        Bloco NAV do BEM
+    \* ------------------- */
+    .navegacao {
+
+    }
+
+    .navegacao__menu {
+        float: right;
+    }
+
+   /* ------------------- *\
+        BOTÃO CHAVEADOR
+    \* ------------------- */
+    .botao-chaveador{
+        width: 24px;
+        height: 24px;
+        border: 0;
+
+        background: none;
+        background-image: url("../imagens/bars-bold.png");
+        /* background-repeat: no-repeat; */
+        background-size: 24px 24px;
+
+        outline: none;        
+    }
+
+    @media(min-width: 768px) {
+        .botao-chaveador {
+            display: none;
+        }
+    }

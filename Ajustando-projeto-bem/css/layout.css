@@ -3,6 +3,7 @@
 .l-cabecalho {
     /* Exibição e Box Model */
     height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -15,10 +16,7 @@
     z-index: 1;
 }
 
-.l-cabecalho img {
-    /* Exibição e Box Model */
-    margin-top: 12px;
-}
+
 
 .l-planos {
     /* Exibição e Box Model */
