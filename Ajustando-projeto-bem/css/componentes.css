@@ -115,6 +115,7 @@
 
 .botao--principal {
     background-color: #004b86;
+    border-radius: 10px;
 }
 
 .botao--principal:hover, .botao--principal:focus {
@@ -352,4 +353,13 @@
     .campo {
         width: 100%;
         display: block;
+        height: 2.8em; /* 2.8x(14=fontSize) = 25,2px*/
+
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        background-color: #fff;
+
+        font-size: 1.4rem; /* 14px */
     }

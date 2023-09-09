@@ -24,7 +24,12 @@
         </div>
     </header>
     
-    <!-- Formulário -->
+    <!-- Formulário --
+    dev backend é responsável por informar:
+        - action
+        - method
+        - name (dos input)
+    --              -->
     <main class="l-assinatura">
         <div class="container">
 
@@ -33,12 +38,72 @@
                 
                 <div class="grupo-entrada">
                     <label for="razao-social">Razão Social</label>
-                    <input id="razao-social" type="text" class="campo">
+                    <input id="razao-social" name="razaoSocial" type="text" class="campo" required>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="grupo-entrada">
+                            <label for="cnpj">CNPJ</label>
+                            <input id="cnpj" name="cnpj" type="number" class="campo" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="data-nascimento">Data da fundação</label>
+                            <input id="data-nascimento" name="dataFundacao" type="date" class="campo" required>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="grupo-entrada">
-                    <label for="cnpj">CNPJ</label>
-                    <input id="cnpj" type="number" class="campo">
+                    <label for="responsavel">Responsável</label>
+                    <input id="responsavel" name="responsavel" type="text" class="campo" required>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email" class="campo" required>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="grupo-entrada">
+                            <label for="estado">Estado</label>
+                            <select id="estado" name="estado" class="campo" required>
+                                <option>Selecione</option>
+                                <option value="MG">MG</option>
+                                <option value="RJ">RJ</option>
+                                <option value="AL">AL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="grupo-entrada">
+                            <label for="cidade">Estado</label>
+                            <select id="cidade" name="cidade" class="campo">
+                                <option>Selecione</option>
+                                <option value="BH">Belo Horizonte</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="AL">Ataláia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="grupo-entrada">
+                            <label for="senha">Senha</label>
+                            <input id="senha" name="senha" type="password" class="campo" required>
+                        </div>
+                    </div>                
+                    <div class="col-sm-4">
+                        <div class="grupo-entrada">
+                            <label for="confirmar-senha">Confirmar a senha</label>
+                            <input id="confirmar-senha" name="confirmarSenha" type="password" class="campo" required>
+                        </div>
+                    </div>
                 </div>
 
                 <div style="text-align: center; margin-top: 50px;">
